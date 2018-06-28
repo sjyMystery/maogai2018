@@ -1,0 +1,23 @@
+module.exports={
+    title:'毛中特2018复习',
+    description:'为了更好的复习',
+    base:'/maogai2018/',
+    themeConfig:{
+        nav:[
+            {text:'主页',link:'/'},
+            {text:'课本',link:'/book/'},
+            {text:'重点',link:'/notice'}
+        ],
+      sidebar:{
+          '/book/':[
+              '/book/8.md',
+              '/book/9.md',
+              '/book/10.md',
+              '/book/11.md',
+              '/book/12.md',
+              '/book/13.md',
+              '/book/14.md',
+          ],
+      }
+    },
+}
